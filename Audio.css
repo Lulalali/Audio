@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-/* Styling the content container */
+/* Styling the content container for image */
 .content-container {
     padding: 5%;
     max-width: 30%;
@@ -29,45 +29,49 @@ h1 {
 h2 {
     font-size: 30px;
 }
+/*to format the space where the image, the palindrome and miusic is some things that I found omline...*/
 .fieldset-container {
     display: flex;
     justify-content: space-around; /* Horizontally space out the fieldsets */
     align-items: center; /* Vertically center the fieldsets */
     flex-wrap: wrap; /* Allow the fieldsets to wrap to the next line on smaller screens */
 }
-
+/*where the palindrome and miusic buttons live*/
 fieldset {
 
     align-content: center;
-    max-width: 1000px; /* or whatever width you want */
-    width: 75%; /* or whatever percentage you want */
-    margin: 1%;
+    max-width: 1000px; 
+    width: 75%; 
+    margin: 2%;
 }
 
 /* Styling buttons */
 button {
     background-color: #5F9EA0;
     color: #fff;
-    padding: 8px 20px; /* reduced from 10px 25px */
-    font-size: 18px; /* reduced from 20px */
-    border-radius: 6px;
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 5px;
     font-family: 'Pacifico', cursive;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #487a7f; /* A darker shade for hover effect */
+    background-color: #163235; /* A darker shade for hover effect */
 }
 
 .colorful-button {
-    background-color: rgb(170, 86, 248);  /* Replace YOUR_COLOR with the desired color */
-    color:rgb(77, 76, 76);             /* Replace TEXT_COLOR with the desired text color */
+    background-color: rgb(170, 86, 248);  /* Replace color on miusic buttons*/
+    color:rgb(77, 76, 76);             
 }
-
 /* Image arrangement */
 .content-container img {
     max-width: 60%; 
+    margin: 0 auto; 
+    display: block; 
+}
+
     margin: 0 auto; 
     display: block; 
 }
